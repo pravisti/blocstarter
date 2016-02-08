@@ -1,0 +1,78 @@
+.nav a {
+color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+
+.nav ul {
+color: green;
+margin-top: 10px
+}
+
+.nav li {
+display:inline;
+margin: 0 auto;
+}
+
+
+.jumbotron {
+  background-image:url('/assets/frontpage.jpg');
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.jumbotron a {
+color:coral;
+}
+
+.jumbotron h1 {
+color:coral}
+
+.service-features h2 {
+text-align: center;
+margin-top: 20px;
+}
+
+
+.service-features p {
+text-align: center; 
+margin-bottom: 50px;
+
+}
+
+.service-features h3 {
+text-align: center;
+}
+
+---------------------------------------
+
+.featured-fundraisers {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.featured-fundraisers h2 {
+text-align: center;
+
+}
+
+.row {
+margin-top: 60px;
+}
+
+#create {
+text-align: center;
+padding: 0px;
+margin-top: 50px;
+margin-bottom: 80px;
+}
+
+
+
+
+
