@@ -1,0 +1,359 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Fundraiser Page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="path-to-file/social-sharing.css" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+
+	<div class="nav">
+		<div class="container">
+			<ul class="pull-left">
+				<h1>BlocStarter</h1>
+			</ul>
+			<ul class="pull-right">
+				<p class="btn btn-default btn-sm" role="button" id="signUpBtn">Sign Up</p>
+
+
+				   <div class="modal fade" id="signUpModal" role="dialog">
+					  <div class="modal-dialog">
+
+				  <div class="modal-content">
+					 <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						 <h4 style="color:orange;"><span class="glyphicon glyphicon-lock"></span> Sign Up</h4>
+					  </div>
+					  <div class="modal-body">
+						<form role="form">
+							<div class="form-group">
+								<h3>Username</h3>
+								<input type="text" class="form-control" id="usrname">
+
+							</div>
+						<div class="form-group">
+							  <h3>Email</h3>
+							  <input type="text" class="form-control" id="usrname">
+						</div>
+							<div class="form-group">
+							  <h3>Password</h3>
+
+							  <input type="text" class="form-control" id="usrname">
+							</div>
+							<div class="form-group">
+							  <h3>Re-enter Password</h3>
+							  <input type="text" class="form-control" id="usrname">
+								<br>
+							</div>
+							  <div class="checkbox">
+				  <label><input type="checkbox" value="" checked>I agree to BlocStarter's Terms of Use </label>
+							</div>
+				  <button type="submit" class="btn btn-default btn-success btn-block">CREATE ACCCOUNT</button>
+						</form>
+					  </div>
+
+					  <div class="modal-footer">
+						  <p>Already have a BlocStarter account?<a href="#">Log In</a></p>
+
+					  </div>
+
+					</div>
+					</div> 
+
+				</div>
+
+	<button type="button" class="btn btn-default btn-sm" id="logInBtn">Log In</button> 
+			<div class="modal fade" id="logInModal" role="dialog">
+				 <div class="modal-dialog">
+					<div class="modal-content">
+					   <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						 <h4 style="color:orange;"><span class="glyphicon glyphicon-lock"></span> Log In </h4>
+				</div>
+					  <div class="modal-body">
+						<form role="form">
+							<div class="form-group">
+								<h3>Username or E-mail</h3>
+								<input type="text" class="form-control" id="usrname">
+
+							</div>
+							<div class="form-group">
+							  <h3>Password</h3>
+
+							  <input type="text" class="form-control" id="usrname">
+							</div>
+
+				  <button type="submit" class="btn btn-default btn-success btn-block">LOG IN</button>
+						</form>
+					  </div>
+
+					  <div class="modal-footer">
+					  <p>Forgot<a href="#">Password?</p>
+
+					  </div>
+
+		   </div>
+	  </div> 
+	</div>
+			</ul>
+	</div>
+	</div>
+
+
+<div class="nav2">
+   <div class="container">
+      <ul class="pull-left list-style:none;">
+		  <li><a href="#">How it works?</a></li>
+		<li><a href="#">Success Stories</a></li>
+		<li><a href="#">Blog</a></li>
+		</ul>
+
+     <ul class="pull-right list-style:none;">
+		<li><a class="active" href="#">Create a new fundraiser</a></li>
+     </ul>
+
+   </div>
+</div>
+	
+<div class="container">
+	<div class="fundraiser-update">
+		<div class="media">
+			
+			<h2>Sam's Surgery Fund</h2>
+
+		</div>
+	</div>
+</div>
+		
+<div class="fundraiser-update">
+  <div class="row">
+    <div class="container">
+           
+    <div class="media">
+       <div class="media-left">
+         <img class="media-object" src= "assets/temperament_golden_retriever.jpg">
+		</div>
+
+      <div class="media-body">
+		  <h2 class="media-heading">$1500 of $2000 raised</h2>
+                <div class="donation-bar">
+				   <div class="donation-bar-fill" style="width: 20%;">
+				   </div>
+                 </div>
+      
+
+
+       <div class="donate-btn">
+          <h3>17 Donors</h3>
+           	<p><a href="#" class="btn btn-lg btn-block" role="button" id="giveNowBtn" >Give now</a></p>
+		</div>
+
+                
+     
+       <div class="facebook-share-btn">
+			   <button class="btn btn-facebook btn-block" role="button" id="goToFacebook"><i class="fa fa-facebook"></i> | Share on Facebook </button>
+			</div>
+	  </div>
+	  </div>
+    </div>
+  </div>
+</div>
+
+<div class="fundraiser-detail">
+  <div class="row">
+     <div class="container">
+	   <div class="col-md-8">
+ 		
+
+
+          	<h3>Sam had a very unfortunate run in with a plant called Foxtail.</h3>
+		     <p>He inhaled this malicious plant and had to be rushed from </br> Steamboat springs to Denver. He is </br>expected to make a recovery after 4 days of intensive care in the </br> veterninary hospital, but this is going to be a very costly stay. The estimate </br> is currently at $2,500.00.
+			</p>
+			</br>
+      		 <p>
+			Please donate! Anything that you can do will help. We all love </br> our pets, they are truly part of our family. The smallest donation makes</br> a difference. Let's help our friend Rob pay for this difficult situation</br> and save Sam!
+			</p> 
+
+
+<div class="updates">
+		<h3>Updates</h3>
+	   		<p>11/11/2015 - <a href="#">Sam is going to be okay!</p> 
+       		<p>10/31/2015 - <a href="#">Second Doctor's visit</p>
+	</div>
+
+	   
+<div class="supporter-activity">	   
+		<table class="table">
+			<h3>Supporter Activity</h3>
+    			<tbody>
+      			<tr>
+        			<td>Oct 21</td>
+        			<td>Mika donated $25 and says, "Love you Sam!"</td>
+
+      			</tr>
+      			<tr>
+        			<td>Oct 20</td>
+        			<td>Adam donated $15</td>
+
+      			</tr>
+      			<tr>
+        			<td>Oct 20</td>
+        			<td>Rikesh donated $25 and says, “Get well Sam”</td>
+				</tr>
+      			<tr>
+        			<td>Oct 20</td>
+        			<td>Mike Donated $100, “Get well soon Sam!”</td>
+				</tr>
+				<tr>
+					<td>Oct 20</td>
+					<td>Adam Donated $50 and says,"So sad to hear about </br>the accident."</td>
+				</tr>
+				<tr>
+					<td>Oct 19</td>
+        			<td>Pranessha donated $200</td>
+				</tr>
+				<tr>
+					<td>Oct 19</td>
+        			<td>Nikalaya donated $25 and says,"Love you Sam!"</td>
+				</tr>
+				<tr>
+					<td>Oct 19</td>
+        			<td>Nori donated $50</td>
+				</tr>
+				<tr>
+					<td>Oct 19</td>
+        			<td>Nina donated $300 and says, "Much Love"</td>
+				</tr>
+    			</tbody>
+
+		</table>
+<h3>View More</h3>
+	</div>
+</div>
+
+ <div class="side-panel">
+    <div class="col-md-4">
+       <h3>Fundraising Team</h3>
+
+    </div>
+</div>
+  </div>
+ </div>
+</div>
+
+
+
+<div class="footer">
+			<div class="container">
+              <div class="border row">
+ 
+      <div class="col-md-3">
+      
+		  <h3>What is BlocStarter?</h3>
+          <br>
+		  <p>BlocStarter is the first place to turn when you or someone you love is facing a challenge. It’s the central rallying place for giving and receiving meaningful support. From sending a simple “Thinking of You” to raising money for out-of-pocket expenses, BlocStarter empowers anyone tobuild a community and take action when it counts.</p>
+
+</div>
+
+      <div class="col-md-3">
+      	<ul class="list-inline">
+		 	<li a href="#">Help for Cancer Patients</li>
+          	<br><br>
+         	<li a href="#">Cancer Fundraising</li>
+				<br><br>
+         	<li a href="#">Breast Cancer Fundraising</li>
+				<br><br>
+         	<li a href="#">Financial Assistance for Cancer Patients</li>
+				<br><br>
+                <br><br>
+         	<li a href="#">About Crowdfunding</li>
+				<br><br>
+         	<li a href="#">Fundraising for Individuals</li>
+				<br><br>
+         	<li a href="#">What is Crowdfunding?</li>
+				<br><br>
+         	<li a href="#">Get to know Online Crowdfunding</li>
+				<br><br>
+         	<li a href="#">How to Raise Money Online</li>
+				<br><br>
+        
+         </ul>
+	   </div>
+
+	 <div class="col-md-3">
+        <ul class="list-inline">
+			<li a href="#">Need Help Paying Bills?</li>
+          	<br><br>
+         	<li a href="#">Help with Vet Bills</li>
+				<br><br>
+         	<li a href="#">Help with Funeral Expenses</li>
+				<br><br>
+            <li a href="#">Medical Bankruptcy</li>
+				<br><br>
+				<br><br>
+         	<li a href="#">Help with Medical Bills</li>
+				<br><br>
+         	<li a href="#">Learn about Medical Fundraising</li>
+				<br><br>
+         	<li a href="#">How to start a fundraiser</li>
+				<br><br>
+         	<li a href="#">Receive Donations</li>
+				<br><br>
+		 </ul>
+	 </div>
+
+     <div class="col-md-3">
+        <ul class="list-inline">
+			<li> More Info </li>
+                <br><br>
+         	<li a href="#">How It Works</li>
+                <br>
+	        <li a href="#">About Us</li>
+                <br>
+			<li a href="#">Contact Us</li>
+                <br>
+	        <li a href="#">Careers</li>
+                <br>
+	        <li a href="#">Support</li>
+                <br>
+	        <li a href="#">Media Inquiries</li>
+                <br>
+            <li a href="#">Terms and Conditions</li>
+		 </ul>
+      </div>
+				</div>
+	</div>
+</div>
+
+
+
+<script>
+$(document).ready(function(){
+    $("#signUpBtn").click(function(){
+        $("#signUpModal").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#logInBtn").click(function(){
+        $("#logInModal").modal();
+    });
+});
+
+</script>
+
+	</body>
+</html>
+	
+
+

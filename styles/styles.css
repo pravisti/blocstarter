@@ -1,0 +1,267 @@
+.nav a {
+	color: #5a5a5a;
+  	font-size: 11px;
+  	font-weight: bold;
+  	padding: 14px 10px;
+  	text-transform: uppercase;
+}
+
+
+.nav ul {
+	color: green;
+	margin-top: 10px;
+}
+
+
+.nav li {
+	display:inline;
+	margin: 0 auto;
+}
+.nav h1 {
+color: #2ECC71;
+font-size: 40px;
+}
+
+
+#signUpBtn {
+margin-right: 30px;
+margin-top: 10px;
+margin-bottom: 2px;
+padding: 10px 47px 10px 47px;
+text-align: center;
+font-size: 18px;
+color: white;
+}
+
+
+#logInBtn {
+margin-right: 10px;
+margin-top: 10px;
+margin-bottom: 2px;
+text-align: center;
+font-size: 18px;
+color:#E87554;
+background: none;
+padding: 8px 45px 8px 45px;
+border: 3px solid #E87554;
+}
+
+
+
+.btn {
+    border-radius: 0px;
+	height: auto;
+    background-color: #E87554;
+}
+
+.highlight {
+	color: #2ECC71;
+}
+
+.jumbotron {
+	 background-image:url('/assets/frontpage.jpg');
+	 height: 670px;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 text-align: center;
+	}
+
+.btn-lg {
+	 font-size: 35px;
+	 padding-left: 75px;
+	 padding-right: 75px;
+     color:white;
+	}
+
+.jumbotron a {
+	color:aliceblue;
+	margin-top: 120px;;
+
+}
+
+.jumbotron h1 {
+	color: coral;
+	margin-top: 90px;
+}
+
+.icons {
+	padding-left: 70px;
+	padding-top: 20px;
+}
+
+.service-features h2 {
+	text-align: center;
+	margin-top: 20px;
+	color:#9B9B9B;
+}
+
+
+.service-features p {
+	text-align: center; 
+	margin-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	color:#9B9B9B;
+}
+
+.service-features h3 {
+	text-align: center;
+	color:#9B9B9B;
+	font-size: 35px;
+}
+
+.featured-fundraisers {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 
+}
+
+.featured-fundraisers h2 {
+	text-align: center;
+	color: #9B9B9B;
+	padding-bottom: 40px;
+}
+
+.featured-fundraisers h3 {
+color:#9B9B9B;
+ }
+
+.featured-fundraisers2 h3 {
+color:#9B9B9B;
+ }
+
+.featured-fundraisers a {
+color:#E87554;
+text-decoration: underline;
+}
+
+.featured-fundraisers2 a {
+color:#E87554;
+text-decoration: underline;
+}
+
+
+
+
+.row {
+	margin-top: 60px;
+}
+
+.call-to-action {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+.social {
+	padding-top: 90px;
+	padding-bottom: 120px;
+	background: #cde7f0;
+}
+
+.social h2 {
+	color:#4A4A4A;
+}
+
+.footer {
+	background: gray;
+    color:white;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.btn-facebook {
+	color: white;
+	background: #3B5998;
+	padding-right: 96px;
+	text-align: center;
+	padding-left: 82px;
+	padding-top: 23px;
+	padding-bottom: 20px;
+}
+
+.footer p {
+font-size: 18px;
+margin-right: 20px;
+}
+
+.footer ul {
+font-size: 18px;
+padding-top: 20px;
+}
+
+.caption p {
+color:white;
+background-color: #E87554;
+text-align: center;
+border: 0 auto;
+}
+
+.modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+
+
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+
+
+.sumbit {
+text-transform: uppercase;
+}
+
+.donation-bar {
+	height:30px;
+	border:3px solid #4AD68B;
+}
+.donation-bar-fill {
+	background-color: #4AD68B;
+	width: 60%;
+	height: 100%;
+}
+
+.nav2 {
+background-color:#4AD68B;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.nav2 li {
+list-style-type:none;
+display:inline;
+text-align: center;
+}
+
+.nav2 ul {
+  list-style-type:none;
+   margin:0;
+    padding:0;
+   overflow:hidden;
+   background-color: #4AD68B;
+ }
+
+.nav2 li a {
+   display:inline;
+   color:white;
+   text-align: center;
+   text-decoration:none;
+}
+
+/*
+ * Fundraiser Update
+ */
+
+.fundraiser-update {
+	background-color: #E7E7E7;
+}
+
+
+
+
