@@ -259,8 +259,93 @@ text-align: center;
  */
 
 .fundraiser-update {
-	background-color: #E7E7E7;
+	background-color: #ffe2d7;
+    margin-top: 60px;
 }
+
+.media-heading {
+margin-bottom: 10px;
+margin-top:10px;
+}
+
+.donate-btn h3 {
+color:dimgray;
+}
+
+.fundraiser-detail h3 {
+font-family: lato;
+font-size: 28px;
+
+}
+
+.fundraiser-detail p {
+font-family: lato;
+font-size: 20px;
+
+}
+
+.updates {
+margin-top: 80px;
+margin-bottom: 80px;
+font-size: 18px;
+}
+
+.side-panel {
+margin-left: 150px;
+padding-right: 100px;;
+}
+
+.potrait {
+height:70px;
+width:70px;
+}
+
+
+.img-thumbnail {
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right:1px;
+}
+
+.team-members p {
+text-align: center;
+color:chocolate;
+
+}
+
+.team-member btn {
+margin-top: 20px;
+}
+
+#giveNowBtn {
+height: 60px;
+font-size: 20px;
+color:white;
+margin-right: 10px;
+}
+
+.nav2 li {
+margin-right: 20px;
+font-size: 20px;
+}
+
+.table {
+font-family: lato;
+font-size: 18px;
+margin-top: 20px;
+margin-bottom: 40px;
+
+}
+
+.supporter-activity p {
+margin-bottom: 20px;
+font-size: 20px;
+}
+
+
+
+
+
 
 
 
