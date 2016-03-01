@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	    <link href='//fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
 		
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -12,8 +13,8 @@
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-
-		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		
+		
 	</head>
 	<body>
 		<div class="nav">
@@ -106,99 +107,125 @@
                </ul>
 			</div>
 		</div>
-<div class="nav2">
-   <div class="container">
-      <ul class="pull-left list-style:none;">
-		<li><a href="#">How it works?</a></li>
-		<li><a href="#">Success Stories</a></li>
-		<li><a href="#">Blog</a></li>
-	  </ul>
+		
+		<div class="nav2">
+		   <div class="container">
+			  <ul class="pull-left list-style:none;">
+				<li><a href="#">How it works?</a></li>
+				<li><a href="#">Success Stories</a></li>
+				<li><a href="#">Blog</a></li>
+			  </ul>
 
-      <ul class="pull-right list-style:none;">
-		<li><a class="active" href="#">Create a new fundraiser</a></li>
-      </ul>
-   </div>
+			  <ul class="pull-right list-style:none;">
+				<li><a class="active" href="#">Create a new fundraiser</a></li>
+			  </ul>
+		   </div>
+		  </div>
+
+		<div class="container">		
+			  <div class="media">
+				 <div class="media-left">
+				   <img class="img-circle" src= "assets/temperament_golden_retriever.jpg">
+				  </div>
+
+
+		  <div class="media-body">
+		  <div class="donation-description">
+			<h2 class="media-heading">Sam's Surgery Fund</br></br><span> $1500 of $2000 raised</span></h2>
+			   <div class="donation-bar">
+				  <div class="donation-bar-fill" style="width: 20%;">
+				  </div>
+			   </div>
+			   </div>
+			</div>
+
+
+		<div class="donation-amt">
+			<h1>Donation Amount </h1>
+				<div class="btn-cluster">
+					<button type="button" class="btn btn-default btn-sm" id="logInBtn" style="margin-right: 100px" >$50</button> 
+					<button type="button" class="btn btn-default btn-sm" id="logInBtn" style="margin-right: 100px" >$100</button> 
+					<button type="button" class="btn btn-primary btn-sm" id="logInBtn" style="margin-right: 100px" >$200</button> 
+					<button type="button" class="btn btn-default btn-sm" id="logInBtn" style="margin-right: 100px" >Other</button> 
+				</div>
+		</div>
+
+		<div class="billing-info">
+			<h2> Billing Information </h2>
+				<form class="cc-info">
+					<label>
+						<input type="text" id="creditcardfield" placeholder=" Credit Card"/>
+					</label>
+					<label>
+						<input type="text" id="creditcardfield" placeholder=" Security Code"/>
+					</label>
+				</form>
+			<h3>Expiration Date</h3>
+				<form class="expiration1">
+					<label>
+						<input type="text" id="creditcardfield" placeholder=" Month"//>
+					</label>
+					<label>
+						<input type="text" id="creditcardfield" placeholder=" Year"//>
+					</label>
+				</form>
+				<form class="expiration1">
+				  <label>
+						<input type="text" id="creditcardfield" placeholder=" Country"//>
+				  </label>
+				<label>
+						<input type="text" id="creditcardfield" placeholder=" Postal Code"//>
+				</label>
+				</form>
+
+		<div class="submit-area">
+			<form action="anonymous">
+				<input type="checkbox" name="anonymous" value="anonymous"> Display this donation anonomously
+			</form>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="donatenowModal">
+  Donate Now 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="thankyouModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Thanks for your support!</h4>
+      </div>
+      <div class="modal-body">
+      <div class="media">
+				 <div class="media">
+                   <div class="center">
+				   <img class="img-circle" src= "assets/temperament_golden_retriever.jpg " id="dog-modal-img">
+				  </div>
+         
+      <button class="btn btn-facebook btn-block" role="button" id="goToFacebook"><i class="fa fa-facebook"></i> | Share on Facebook </button>
+<button class="btn btn-default btn-block" role="button" id="giveNowBtn">Sign Up for a BlocStarter account</button>
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+   
+      </div>
+    </div>
   </div>
-
-<div class="container">		
-   <div class="donation-snippet">
-  	  <div class="media">
-       	 <div class="media-left">
-           <img class="img-circle" src= "assets/temperament_golden_retriever.jpg">
-		  </div>
+</div>
 
 
-  <div class="media-body">
-  <div class="donation-description">
-	<h2 class="media-heading">Sam's Surgery Fund</br></br><span> $1500 of $2000 raised</span></h2>
-       <div class="donation-bar">
-		  <div class="donation-bar-fill" style="width: 20%;">
-		  </div>
-       </div>
-	   </div>
+		</div>
+			</div>
+
+
+			</div>
+			  </div>
+		</div>
 	</div>
 
-		  
-		  <div class="donation-amt">
-<h1>Donation Amount </h1>
-<div class="btn-cluster">
-<button type="button" class="btn btn-default btn-sm" id="logInBtn" style="margin-right: 100px" >$50</button> 
-<button type="button" class="btn btn-default btn-sm" id="logInBtn" style="margin-right: 100px" >$100</button> 
-<button type="button" class="btn btn-primary btn-sm" id="logInBtn" style="margin-right: 100px" >$200</button> 
-<button type="button" class="btn btn-default btn-sm" id="logInBtn" style="margin-right: 100px" >Other</button> 
-
-<div class="billing-info">
-
-<h2> Billing Information </h2>
-<form class="cc-info">
-  <label>
-    <input type="text" id="creditcardfield" placeholder=" Credit Card"/>
-  </label>
-  <label for="contact">
-    <input type="text" id="creditcardfield" placeholder=" Security Code"/>
-  </label>
-	</form>
-<h3>Expiration Date</h3>
-<form class="expiration1">
- <label>
-    <input type="text" id="creditcardfield" placeholder=" Month"//>
-  </label>
-  <label>
-    <input type="text" id="creditcardfield" placeholder=" Year"//>
-  </label>
-</form>
-<form class="expiration1">
- <label>
-    <input type="text" id="creditcardfield" placeholder=" Country"//>
-  </label>
-  <label>
-    <input type="text" id="creditcardfield" placeholder=" Postal Code"//>
-  </label>
-</form>
-  
-
-
-	 </div>
-
-       
-       </div>
-
-	 
-	 
-	 
-	 
-		 	
-       </div>
 	
-
-
-		</div>
-		</div>
-		</div>
-		</div>
-	</div>
-		</div>
-	</div>
 		
 		
 		
@@ -280,12 +307,15 @@
             <li a href="#">Terms and Conditions</li>
 		 </ul>
       </div>
+				</div>
+			</div>
+</footer>
 		
 <!--<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
 			</div>
 -->
 
-		</footer>
+	
 <script>
 $(document).ready(function(){
     $("#signUpBtn").click(function(){
@@ -298,6 +328,13 @@ $(document).ready(function(){
         $("#logInModal").modal();
     });
 });
+
+$(document).ready(function(){
+    $("#donatenowModal").click(function(){
+        $("#thankyouModal").modal();
+    });
+});
+
 
 </script>
 

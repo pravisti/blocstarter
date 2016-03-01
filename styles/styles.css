@@ -15,20 +15,20 @@
 
 
 .nav h1 {
-color: #2ECC71;
-font-size: 40px;
+	color: #2ECC71;
+	font-size: 40px;
 }
 
 
 #signUpBtn {
-margin-right: 30px;
-margin-top: 10px;
-margin-bottom: 2px;
-padding: 10px 47px 10px 47px;
-text-align: center;
-font-size: 18px;
-color: white;
-border: none;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	padding: 10px 47px 10px 47px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	border: none;
 }
 
 #signUpBtn:hover {
@@ -36,20 +36,20 @@ border: none;
 }
 
 #logInBtn:click  {
-background-color: gray;
+	background-color: gray;
 }
 
 
 #logInBtn {
-margin-right: 10px;
-margin-top: 10px;
-margin-bottom: 2px;
-text-align: center;
-font-size: 18px;
-color:#E87554;
-background:white;
-padding: 8px 45px 8px 45px;
-border: 3px solid #E87554;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	text-align: center;
+	font-size: 18px;
+	color:#E87554;
+	background:white;
+	padding: 8px 45px 8px 45px;
+	border: 3px solid #E87554;
 }
 
 
@@ -130,21 +130,21 @@ border: 3px solid #E87554;
 }
 
 .featured-fundraisers h3 {
-color:#9B9B9B;
+	color:#9B9B9B;
  }
 
 .featured-fundraisers2 h3 {
-color:#9B9B9B;
+	color:#9B9B9B;
  }
 
 .featured-fundraisers a {
-color:#E87554;
-text-decoration: underline;
+	color:#E87554;
+	text-decoration: underline;
 }
 
 .featured-fundraisers2 a {
-color:#E87554;
-text-decoration: underline;
+	color:#E87554;
+	text-decoration: underline;
 }
 
 
@@ -190,20 +190,20 @@ text-decoration: underline;
 }
 
 .footer p {
-font-size: 18px;
-margin-right: 20px;
+	font-size: 18px;
+	margin-right: 20px;
 }
 
 .footer ul {
-font-size: 18px;
-padding-top: 20px;
+	font-size: 18px;
+	padding-top: 20px;
 }
 
 .caption p {
-color:white;
-background-color: #E87554;
-text-align: center;
-border: 0 auto;
+	color:white;
+	background-color: #E87554;
+	text-align: center;
+	border: 0 auto;
 }
 
 .modal-header, h4, .close {
@@ -222,7 +222,7 @@ border: 0 auto;
 
 
 .sumbit {
-text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .donation-bar {
@@ -236,15 +236,15 @@ text-transform: uppercase;
 }
 
 .nav2 {
-background-color:#4AD68B;
-padding-top: 20px;
-padding-bottom: 20px;
+	background-color:#4AD68B;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .nav2 li {
-list-style-type:none;
-display:inline;
-text-align: center;
+	list-style-type:none;
+	display:inline;
+	text-align: center;
 }
 
 .nav2 ul {
@@ -272,35 +272,35 @@ text-align: center;
 }
 
 .media-heading {
-margin-bottom: 10px;
-margin-top:10px;
+	margin-bottom: 10px;
+	margin-top:10px;
 }
 
 .donate-btn h3 {
-color:dimgray;
+	color:dimgray;
 }
 
 .fundraiser-detail h3 {
-font-family: lato;
-font-size: 28px;
+	font-family: lato;
+	font-size: 28px;
 
 }
 
 .fundraiser-detail p {
-font-family: lato;
-font-size: 20px;
+	font-family: lato;
+	font-size: 20px;
 
 }
 
 .updates {
-margin-top: 80px;
-margin-bottom: 80px;
-font-size: 18px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 18px;
 }
 
 .side-panel {
-margin-left: 150px;
-padding-right: 100px;;
+	margin-left: 150px;
+	padding-right: 100px;
 }
 
 .potrait {
@@ -325,44 +325,44 @@ padding-right: 100px;;
 
 
 .img-thumbnail {
-margin-top: 20px;
-margin-bottom: 20px;
-margin-right:1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right:1px;
 }
 
 .team-members p {
-text-align: center;
-color:chocolate;
+	text-align: center;
+	color:chocolate;
 
 }
 
 .team-member btn {
-margin-top: 20px;
+	margin-top: 20px;
 }
 
 #giveNowBtn {
-height: 60px;
-font-size: 20px;
-color:white;
-margin-right: 10px;
+	height: 60px;
+	font-size: 20px;
+	color:white;
+	margin-right: 10px;
 }
 
 .nav2 li {
-margin-right: 20px;
-font-size: 20px;
+	margin-right: 20px;
+	font-size: 20px;
 }
 
 .table {
-font-family: lato;
-font-size: 18px;
-margin-top: 20px;
-margin-bottom: 40px;
+	font-family: lato;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 
 }
 
 .supporter-activity p {
-margin-bottom: 20px;
-font-size: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
 }
 
 
@@ -371,59 +371,73 @@ font-size: 20px;
  */
 
 .pull-right {
-display:inline-block;
+	display:inline-block;
 }
 
 .myaccount-form {
-height:1200px;
-width:900px;
-background: rgba(38, 8, 0, 0.2);
-margin-bottom: 60px;
-margin-top: 60px;
+	height:1200px;
+	width:900px;
+	background: rgba(38, 8, 0, 0.2);
+	margin-bottom: 100px;
+	margin-top: 60px;
 }
 
 .rectangle-bar {
-width:900px;
-height:70px;
-border:0px solid;
-background: rgba(44, 10, 0, 0.2);
-font-size: 28px;
-text-align: left;
-color: white;
+	width:900px;
+	height:70px;
+	border:0px solid;
+	background: rgba(44, 10, 0, 0.2);
+	font-size: 28px;
+	text-align: left;
+	color: white;
 	}
+
 .rectangle-bar h2 {
-padding-top:15px;
-padding-left: 20px;
+	padding-top:15px;
+	padding-left: 20px;
 }
 
 .form-group {
-margin-left: 50px;
+	margin-left: 50px;
 }
 
 #exampleInputfirstName {
-width:280px;
+	width:280px;
 }
 
 .basic-info {
-margin-top: 20px;
-margin-right: 30px;
+	margin-top: 20px;
+	margin-right: 30px;
 }
 
 #exampleInputFirstName {
-height: 40px;
-margin-bottom: 20px;
+	height: 40px;
+	margin-bottom: 20px;
 }
 
 .form-group {
-height: 70px;
-width: 45%;
+	height: 70px;
+	width: 45%;
 }
 
-.form-control {
-height: 40px;
-width: 40%;
+#form-control-updateaccount {
+	height: 40px;
+	width: 40%;
 }
 
+#savechangesBtn {
+padding: 10px 40px 10px 40px; 
+color:white;
+font-size: 18px;
+}
+
+#choosefileBtn {
+border:none;
+}
+
+.footer-buttons {
+padding-bottom: 50
+}
 
 /*
  * updateaccount
@@ -431,37 +445,28 @@ width: 40%;
 
 
 .account-image {
-width:50%;
-;
-padding-left: 45px 
+	width:50%;
+    padding-left: 45px 
 
 }
 
 .account-image h3 {
-color:lightslategray;
-font-size:15px;}
+	color:lightslategray;
+	font-size:15px;}
 
-#uploadBtn {
-position:relative;
-left:-150px;
-top:35px;
+#choosefileBtn {
+margin-top: 10px;
 }
 
 .change-password h3 {
-padding-left: 45px;
-color:lightslategrey;
+	padding-left: 45px;
+	color:lightslategrey;
 }
 
 .footer-buttons {
-padding-left: 365px;
+	padding-left: 365px;
 }
 
-.btn-group {
-position:relative;
-float:right;
-padding-left: 20px;
-color:white;
-}
 
 
 /*
@@ -476,7 +481,8 @@ color:white;
     width: 20%;
     float:left; 
     background-color: floralwhite;
-    list-style-type: none;
+ 
+
 
 
     /* add this */
@@ -490,7 +496,7 @@ color:white;
 
 
 #first li a {
- color: grey;
+ 		color: grey;
         display: block;
         font: bold 120% Arial, Helvetica, sans-serif;
         padding: 40px;
@@ -499,37 +505,41 @@ color:white;
 }
 
 #first li a:hover {
-background-color:papayawhip;
+		background-color:papayawhip;
+}
+#first li a:active {
+	background-color: #000;
 }
 
 
 
 #printactivitybtn {
-border:none;
-padding: 15px 35px 15px 25px;
-margin-left: 690px;
-background-color: dimgray;
+	border:none;
+	padding: 15px 35px 15px 25px;
+	margin-left: 690px;
+	background-color: dimgray;
 }
 
 
 #sendDoc {
-border:none;
-padding: 15px 35px 15px 25px;
-margin-left: 730px;
-background-color: gray;
-background-color: #4AD68B;
+	border:none;
+	padding: 15px 35px 15px 25px;
+	margin-left: 730px;
+	background-color: gray;
+	background-color: #4AD68B;
 }
 
 
 
 #deleteActivity {
-border:none;
-padding: 15px 45px 15px 45px;
-margin-left: 730px;
-background-color: gray;
-margin-bottom: 60px;
-background-color: darkred;
+	border:none;
+	padding: 15px 45px 15px 45px;
+	margin-left: 730px;
+	background-color: gray;
+	margin-bottom: 60px;
+	background-color: darkred;
 }
+
 
 
 /*
@@ -537,42 +547,81 @@ background-color: darkred;
  */
 
 .img-circle {
-width: 300px;
-height: 295px;
-margin-top: 50px;
+	width: 300px;
+	height: 295px;
+	margin-top: 50px;
 }
 
 .donation-description {
 
-padding-right:400px;
-margin-top:100px;
-margin-left:100px;
+	padding-right:400px;
+	margin-top:100px;
+	margin-left:100px;
 }
 
 .donation-description h2 {
-color: gray;
+	color: gray;
 }
 
 
 label {
-width: 40%;
-height: 50px; 
-font-family: sans-serif;
+	width: 40%;
+	height: 50px; 
+	font-family: sans-serif;
 }
 
 #creditcardfield {
-width:100%;
-height: 50px;
-font-size: 18px;
+	width:100%;
+	height: 50px;
+	font-size: 18px;
+}
 
+input[type="checkbox"]{
+  width: 20px; /*Desired width*/
+  height: 20px; /*Desired height*/
+}
 
+#donatetocause {
+	width: 300px;
+	height: 50px; 
+	margin-bottom: 100px;
+	margin-top: 50px;
+	position:relative;
+	margin-left: 350px;
+	border: none;
+	font-size: 18px;
+}
+
+#donatetocause:hover {
+	background-color: lightsalmon;
+}
+
+#donatetocause:click {
+	background-color: lightsalmon;
+}
+
+.billing-info {
+	margin-top: 60px;
+}
+
+.donation-amt {
+	margin-top: 50px;
 }
 
 
+#dog-modal-img {
+position:static;
+margin-left:130px;
+margin-bottom: 50px;
+}
 
-
-
-
+#donatenowModal {
+position: relative;
+margin-top: 80px;
+margin-left: 280px;
+margin-bottom: 80px;
+border: white;
+}
 
 
 

@@ -25,22 +25,32 @@
 		   </div>
          
 			 <div class="pull-right">
-                 <form class="navbar-form" role="search">
+                 <form role="search" style="display: inline-block;">
                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Search">
+                      <input type="text" class="form-control" placeholder="Search" style="width: 100%;">
                         
-                      </div>
+                   </div>
+				 </form>
                         
 				 
 				 
-           <div class="btn-group">
-			  <button class="btn btn-default btn-md dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				Small button <span class="caret"></span>
-			  </button>
-			  <ul class="dropdown-menu">
-			  </ul>
-		   </div>
-  </form>
+       
+				 		<!-- Single button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+ My Account
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div>	
+
+	
+
 			</div>
     </div>
 </div>
@@ -80,13 +90,16 @@
        <div class="basic-info">
 		 
 		 <form class="form-inline">
+			 <div class="form-fields-updateaccount">
 		 	<div class="form-group" >
                 <label class="sr-only" for="exampleInputEmail3">First Name</label>
-    				<input type="email" class="form-control" id="exampleInputFirstName" placeholder="First " style="width: 100%;">
+    				<input type="email" class="form-control" id="exampleInputFirstName" placeholder="First Name" style="width: 100%;">
                  </div>
+		</div>
   
 
 	    <form class="form-inline">
+  
 	 	   <div class="form-group" >
                 <label class="sr-only" for="exampleInputEmail3">Email</label>
     				 <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email" style="width: 100%;">
@@ -145,10 +158,11 @@
   <div class="profile">
 <img src="assets/IMG_1060.jpg" class="potrait">
 <p> Upload a picture of yourself</p>
-<button class="btn btn-sm btn-primary" id="uploadBtn"> Choose File </button>
-<h3>Contact Preference</h3>
-	  <label class="checkbox-inline"><input type="checkbox" value="">Keep me updated about BlocStarter News and Events</label>
+<button class="btn btn-sm btn-primary" id="choosefileBtn"> Choose File </button>
 
+
+	  
+	  
 </div>
 </div>
 
@@ -169,7 +183,8 @@
 	</form>
 
 <div class="footer-buttons">
-<button type="button" class="btn btn-default btn-sm" role="button" id="signUpBtn">Save Changes</button>
+<button type="button" class="btn btn-default btn-sm" role="button" id="savechangesBtn">Save Changes</button>
+	</br>
 	</div>
 	
 		   
